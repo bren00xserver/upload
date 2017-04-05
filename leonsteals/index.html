@@ -1,8 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lies and Fake</title>
   </head>
   <body>
+    <pre>
+    L E O N L E A K S
+    -----------------
+    Sites stolen from
+    - <a href="http://haima.me/" target="_blank">http://haima.me/</a>
+    - Tutu App
+    How it works:
+    
+    takes code from other apps for instence:
+    itms-services://?action=download-manifest&url=https://free.lmdinteractive.com/apphack.php?ipa=http://hot.haima.me/infinite/201702/0916/com.fallentreegames.noon_1.20_20161116171200_1_7u7z6j.ipa&icon=http://is3.mzstatic.com/image/thumb/Purple4/v4/43/41/23/4341237a-b829-4cb1-f3c2-93759d9d529a/source/114x114bb.jpg&title=.NOON.%20-%20@
+    
+    ^^^
+    That is the url now break it down:
+        itms-services://?action=download-manifest&url=
+    To tell apple to install the app.
+    -----------------
+    https://free.lmdinteractive.com/apphack.php?ipa=
+    Here the hack.
+    it uses: (Main IPA)
+    http://hot.haima.me/infinite/201702/0916/com.fallentreegames.noon_1.20_20161116171200_1_7u7z6j.ipa
+    + Custom Icon(remove &icon=)
+    http://is3.mzstatic.com/image/thumb/Purple4/v4/43/41/23/4341237a-b829-4cb1-f3c2-93759d9d529a/source/114x114bb.jpg
+    + gets title removes (&title=.. - @)
+    NOON
+    = cloned covered up ipa.
+    -----------------
+    template php is using:
+    
+    
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;apple.com/DTDs/PropertyL&hellip;&quot;&gt; &lt;plist version=&quot;1.0&quot;&gt; &lt;dict&gt; &lt;key&gt;items&lt;/key&gt; &lt;array&gt; &lt;dict&gt; &lt;key&gt;assets&lt;/key&gt; &lt;array&gt; &lt;dict&gt; &lt;key&gt;kind&lt;/key&gt; &lt;string&gt;software-package&lt;/string&gt; &lt;key&gt;url&lt;/key&gt; &lt;string&gt;&lt;/string&gt; &lt;/dict&gt; &lt;dict&gt; &lt;key&gt;kind&lt;/key&gt; &lt;string&gt;display-image&lt;/string&gt; &lt;key&gt;needs-shine&lt;/key&gt; &lt;true/&gt; &lt;key&gt;url&lt;/key&gt; &lt;string&gt;&lt;/string&gt; &lt;/dict&gt; &lt;/array&gt;&lt;key&gt;metadata&lt;/key&gt; &lt;dict&gt; &lt;key&gt;bundle-identifier&lt;/key&gt; &lt;string&gt;com.zestia.&lt;/string&gt; &lt;key&gt;bundle-version&lt;/key&gt; &lt;string&gt;0.33.1&lt;/string&gt; &lt;key&gt;kind&lt;/key&gt; &lt;string&gt;software&lt;/string&gt; &lt;key&gt;title&lt;/key&gt; &lt;string&gt; / Zestia&lt;/string&gt; &lt;/dict&gt; &lt;/dict&gt; &lt;/array&gt; &lt;/dict&gt; &lt;/plist&gt;
+    </pre>
+    
+    
   </body>
  </html>
